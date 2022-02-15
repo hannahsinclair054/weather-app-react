@@ -111,7 +111,16 @@ export default function WeatherApp() {
             </p>
           </section>
         </section>
-        <p className="footer">Open-source code, by Hannah Sinclair</p>
+        <p className="footer">
+          <a
+            href="https://github.com/hannahsinclair054/weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          , by Hannah Sinclair
+        </p>
       </div>
     );
   } else {
@@ -122,7 +131,16 @@ export default function WeatherApp() {
         <section className="main">
           <Rings color="#d46456" height={300} width={600} />
         </section>
-        <p className="footer">Open-source code , by Hannah Sinclair</p>
+        <p className="footer">
+          <a
+            href="https://github.com/hannahsinclair054/weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          , by Hannah Sinclair
+        </p>
       </div>
     );
   }

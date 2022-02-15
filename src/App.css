@@ -173,14 +173,16 @@ p.footer {
   font-size: 14px;
   margin-bottom: 0;
   margin-top: 5px;
-  color: #000000;
+  color: #fff;
   font-weight: 700;
+  font-family: monospace;
 }
-a.footer {
-  color: #000000;
+.footer a {
+  color: #ffff;
   text-decoration-line: none;
 }
 
-a.footer:hover {
+.footer:hover a {
+  color: #fff;
   text-decoration-line: underline;
 }
