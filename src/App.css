@@ -1,38 +1,186 @@
 .App {
   text-align: center;
+  font-family: monospace;
+  max-width: 625px;
+  margin: 20px auto;
+  padding: 10px 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("ivan-sanford-V0IMj13eykc-unsplash.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  text-align: center;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.384);
+  border: 2px solid #d46456;
+  box-shadow: 0 0 30px #d46456;
+  width: 90%;
+  font-family: monospace;
 }
 
-.App-link {
-  color: #61dafb;
+section.main {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 10px auto;
+  padding: 5px 20px;
+  border-radius: 16px;
+  background-color: #fff;
+  float: center;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section.cityTemp {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 10px auto;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: #fff;
+  float: center;
+}
+
+section.info {
+  max-width: 150px;
+  max-height: 300px;
+  margin-top: -200px;
+  margin-left: -20px;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  float: left;
+  text-align: left;
+  position: relative;
+}
+section.right {
+  max-width: 160px;
+  max-height: 70px;
+  margin-top: -78px;
+  margin-right: -10px;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 14px;
+  text-align: right;
+  float: right;
+}
+.searchBar {
+  box-shadow: 3px 3px 2px rgba(255, 255, 255, 0.315);
+  border: rgba(255, 255, 255, 0.315);
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.searchButton {
+  border-radius: 2px;
+  font-size: 18px;
+  color: #0f0f0f;
+  border: rgba(255, 255, 255, 0.315);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 2px rgba(255, 255, 255, 0.315);
+}
+button {
+  border-color: #e5e5e500;
+  border-radius: 2px;
+  width: 40px;
+  height: 28px;
+  background-color: #e5e5e500;
+}
+button.weatherButton:hover {
+  background-color: rgba(202, 202, 202, 0.473);
+}
+.searchButton:hover {
+  font-weight: bold;
+}
+span.todayTemp {
+  font-weight: 800px;
+}
+.todayTemp {
+  font-size: 50px;
+  font-family: monospace;
+}
+.tempUnitC {
+  position: relative;
+  top: -70px;
+  left: 30px;
+  font-size: 20px;
+  text-transform: none;
+  text-decoration: none;
+  color: #000;
+}
+
+.tempUnit {
+  position: relative;
+  top: -20px;
+  left: -10px;
+  font-size: 20px;
+  text-transform: none;
+  text-decoration: none;
+  color: #000;
+}
+
+p.tempToday {
+  margin-top: -15px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0 auto;
+}
+p.tempDescribe,
+.date {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+p.tempDescribe:first-letter {
+  text-transform: capitalize;
+}
+
+h3.date {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+p.tempDescribe {
+  font-size: 17px;
+}
+.right p span {
+  font-size: 17px;
+}
+span.minTemp {
+  color: rgb(109, 109, 109);
+  font-weight: 600;
+}
+
+p.footer {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: #000000;
+  font-weight: 700;
+}
+a.footer {
+  color: #000000;
+  text-decoration-line: none;
+}
+
+a.footer:hover {
+  text-decoration-line: underline;
 }
